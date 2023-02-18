@@ -1,4 +1,4 @@
 # EECS662_Programming_Languages
 # Run
-ghci
+ghci \n
 :l p<Project_Number>
