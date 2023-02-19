@@ -57,3 +57,18 @@ optimize (IsZero [Number||Statement])
 optimize (If [Boolean] [Number||Boolean||Statement] [Number||Boolean||Statement])
 
 optimize ([Operator] [Number||Boolean||Statement] [Number||Boolean||Statement])
+
+# In Project 3, by using Plus, Minus, Mult, Div, And, Or, or Leq for the [Operator], you can do following:
+evalS (Num [Number||Statement])
+
+evalS (Boolean [Boolean||Statement])
+
+evalS (IsZero [Number||Statement])
+
+evalS (IsZero [Number||Statement])
+
+evalS (Bind [Boolean] [Number||Boolean||Statement] [Number||Boolean||Statement])
+
+evalS (If [Boolean] [Number||Boolean||Statement] [Number||Boolean||Statement])
+
+evalS ([Operator] [Number||Boolean||Statement] [Number||Boolean||Statement])
