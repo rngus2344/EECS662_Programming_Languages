@@ -2,27 +2,58 @@
 # To run the project:
 ghci
 
-:l p<Project_Number>
+:l p[Project_Number]
 
 # In Project 1, by using Plus, Minus, Mult, or Div for the [Operator], you can do following:
-evalErr (Num [Number])
+evalErr (Num [Number||Statement])
 
-evalErr (Sqr [Number])
+evalErr (Sqr [Number||Statement])
 
-evalErr ([Operator] [Number] [Number])
-
-
-evalMaybe (Num [Number])
-
-evalMaybe (Sqr [Number])
-
-evalMaybe ([Operator] [Number] [Number])
+evalErr ([Operator] [Number||Statement] [Number||Statement])
 
 
-evalM (Num [Number])
+evalMaybe (Num [Number||Statement])
 
-evalM (Sqr [Number])
+evalMaybe (Sqr [Number||Statement])
 
-evalM ([Operator] [Number] [Number])
+evalMaybe ([Operator] [Number||Statement] [Number||Statement])
 
-# In Project 2, by using Plus, Minus, Mult, or Div for the [Operator], you can do following:
+
+evalM (Num [Number||Statement])
+
+evalM (Sqr [Number||Statement])
+
+evalM ([Operator] [Number||Statement] [Number||Statement])
+
+# In Project 2, by using Plus, Minus, Mult, Div, And, Or, or Leq for the [Operator], you can do following:
+evalM (Num [Number||Statement])
+
+evalM (Boolean [Boolean||Statement])
+
+evalM (IsZero [Number||Statement])
+
+evalM (If [Boolean] [Number||Boolean||Statement] [Number||Boolean||Statement])
+
+evalM ([Operator] [Number||Boolean||Statement] [Number||Boolean||Statement])
+
+
+typeofM (Num [Number||Statement])
+
+typeofM (Boolean [Boolean||Statement])
+
+typeofM (IsZero [Number||Statement])
+
+typeofM (If [Boolean] [Number||Boolean||Statement] [Number||Boolean||Statement])
+
+typeofM ([Operator] [Number||Boolean||Statement] [Number||Boolean||Statement])
+
+
+optimize (Num [Number||Statement])
+
+optimize (Boolean [Boolean||Statement])
+
+optimize (IsZero [Number||Statement])
+
+optimize (If [Boolean] [Number||Boolean||Statement] [Number||Boolean||Statement])
+
+optimize ([Operator] [Number||Boolean||Statement] [Number||Boolean||Statement])
