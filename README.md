@@ -58,7 +58,7 @@ optimize (If (Boolean [Boolean]) (Num [Number])||(Boolean [Boolean]) (Num [Numbe
 
 optimize ([Operator] (Num [Number])||(Boolean [Boolean]) (Num [Number])||(Boolean [Boolean]))
 
-# In Project 3, by using Plus, Minus, Mult, Div, And, Or, or Leq for the [Operator], you can do following (leave the empty square brackets as it is. It is necessary):
+# In Project 3, by using Plus, Minus, Mult, Div, And, Or, or Leq for the [Operator], you can do following (leave the empty square brackets as it is.):
 evalS (Num [Number])
 
 evalS (Boolean [Boolean])
@@ -103,7 +103,7 @@ typeofM [] (If (Boolean [Boolean]) (Num [Number])||(Boolean [Boolean]) (Num [Num
 
 typeofM [] ([Operator] (Num [Number])||(Boolean [Boolean]) (Num [Number])||(Boolean [Boolean]))
 
-# In Project 4, by using Plus, Minus, Mult, or Div for the [Operator], and PlusX, MinusX, MultX, or DivX for the [OperatorX], you can do following (leave the empty square brackets as it is. It is necessary):
+# In Project 4, by using Plus, Minus, Mult, or Div for the [Operator], and PlusX, MinusX, MultX, or DivX for the [OperatorX], you can do following (leave the empty square brackets as it is.):
 evalDyn [] (Num [Number])
 
 evalDyn [] (Id "[Character]")
